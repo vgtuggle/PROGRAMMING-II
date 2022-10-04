@@ -1,0 +1,46 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Mad Libs!</title>
+<style type="text/css">
+form {text-align: right;}
+	
+.madlibbox {       
+	background: rgb(255, 255, 255);
+	border: #25201A 1px solid;
+	padding: 10px;
+	font-size: medium;
+	margin: auto;
+	width: 340px;
+	font-family: Verdana, "Myriad Web", Syntax, sans-serif;	
+        }  
+
+body	{	
+	padding: 0;
+	border: 0;
+	background: #7bb8bd;
+	width:	auto;
+	text-align: center;
+	}		
+	
+h1 {padding: 10px; text-align: center; text-transform: uppercase;}
+</style>
+</head>
+<body>
+<div class = "content">
+<h1>Mad Libs!</h1>
+
+<div class = "madlibbox">
+
+<form action="result.php" method="post">
+First Name:<input type="text" name="firstname"><br />
+Another First Name:<input type="text" name="secondname"><br />
+Location:<input type="text" name="location"><br />
+Occupation:<input type="text" name="occupation"><br />
+Adjective:<input type="text" name="adjective"><br />
+Verb:<input type="text" name="verb"><br />
+Noun:<input type="text" name="noun"><br />
+<input type="submit" name="madlib" value="Create story!">
+</form>
+</div>
+</div></body></html>
